@@ -1,0 +1,407 @@
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.span1 {
+  width: 60px; }
+
+.span2 {
+  width: 140px; }
+
+.span3 {
+  width: 220px; }
+
+.span4 {
+  width: 300px; }
+
+.span5 {
+  width: 380px; }
+
+.span6 {
+  width: 460px; }
+
+.span7 {
+  width: 540px; }
+
+.span8 {
+  width: 620px; }
+
+.span9 {
+  width: 700px; }
+
+.span10 {
+  width: 780px; }
+
+.span11 {
+  width: 860px; }
+
+.span12 {
+  width: 940px; }
+
+.while-4 {
+  width: 24px; }
+
+.while-3 {
+  width: 23px; }
+
+.while-2 {
+  width: 22px; }
+
+.while-1 {
+  width: 21px; }
+
+.author-bio .photo-adam {
+  background: url("/images/avatars/adam.png") no-repeat; }
+.author-bio .photo-john {
+  background: url("/images/avatars/john.png") no-repeat; }
+.author-bio .photo-wynn {
+  background: url("/images/avatars/wynn.png") no-repeat; }
+.author-bio .photo-mason {
+  background: url("/images/avatars/mason.png") no-repeat; }
+.author-bio .photo-kuroir {
+  background: url("/images/avatars/kuroir.png") no-repeat; }
+
+.test1 {
+  content: Hello Sass!; }
+
+.test2 {
+  content: 'Hello Sass!; }
+
+.test4 {
+  content: 'Hello Sass!'; }
+
+.test3 {
+  content: I'm Web Designer; }
+
+.test5 {
+  content: "Hello Sass!"; }
+
+.test6 {
+  content: Hello Sass; }
+
+.quote1 {
+  content: "Hello Sass!"; }
+
+.quote2 {
+  content: "Hello Sass!"; }
+
+.quote3 {
+  content: "ImWebDesigner"; }
+
+.quote4 {
+  content: " "; }
+
+.upper-case {
+  text: AAAA;
+  text: AA-AAAA-AAA; }
+
+.lower-case {
+  text: aaaa;
+  text: aa-aaaa-aaa; }
+
+.test-percentage {
+  width: 20%;
+  height: 20%; }
+
+.test-round {
+  padding: 12 13 1 2;
+  margin: 20% 2% 4em 2px;
+  left: 1;
+  right: 0; }
+
+.test-ceil {
+  margin: 2 3 3 3%;
+  padding: 3px 1; }
+
+.test-floor {
+  margin: 2 2 10em 10px; }
+
+.test-abs {
+  margin: 10 10 0.5% 0.5; }
+
+.test-min-max {
+  top: 1%;
+  left: 1px;
+  right: 5;
+  bottom: 10px; }
+
+.test-random {
+  top: 0.58805; }
+
+.test-length {
+  top: 1;
+  right: 4;
+  left: 3; }
+
+.test-nth {
+  left: 10px;
+  font-family: Arial;
+  border: 1px solid red; }
+
+.test-join {
+  margin: 10px 20px 30px 40px;
+  color: blue, red, #abc, #def;
+  background-color: blue, red, #abc, #def;
+  top: blue red #abc #def #dee #eff;
+  left: blue, green, orange;
+  right: blue green orange;
+  bottom: blue red;
+  vertical-align: blue, red;
+  clear: blue green red orange; }
+
+.test-append {
+  top: 10px 20px 30px;
+  right: 10px, 20px, 30px;
+  left: red green, blue;
+  bottom: blue, green, red;
+  color: blue green red; }
+
+.test-zip {
+  border: 1px solid green, 2px dashed blue, 3px dotted red; }
+
+.test-index {
+  top: 1; }
+
+.test-type-of {
+  top: number;
+  top: number;
+  top: string;
+  top: string;
+  top: bool;
+  top: bool;
+  top: color;
+  top: color;
+  top: string; }
+
+.test-unit {
+  left: "";
+  left: "px";
+  left: "%";
+  left: "em";
+  left: "em*px";
+  left: "px/em";
+  left: "em/rem";
+  left: "px";
+  left: "px";
+  left: "px"; }
+
+.test-unitless {
+  right: true;
+  right: false;
+  right: false;
+  right: true;
+  right: true;
+  right: false; }
+
+.test-comparable {
+  top: true;
+  top: false;
+  top: false;
+  top: false;
+  top: true;
+  top: true; }
+
+.test-if {
+  bottom: 1px;
+  bottom: 2px; }
+
+.test-map-get {
+  color: #3b5998; }
+
+/* type-1*/
+/* type-2*/
+.btn-github {
+  color: #171515; }
+
+/* type-3*/
+.btn-dribble {
+  color: #ea3c89; }
+
+.btn-facebook {
+  color: #3b5998; }
+
+.btn-github {
+  color: #171515; }
+
+.btn-google {
+  color: #db4437; }
+
+.btn-twitter {
+  color: #55acee; }
+
+.test-map-keys {
+  color: dribble, facebook, github, google, twitter; }
+
+.span-dribble {
+  color: #ea3c89; }
+
+.span-facebook {
+  color: #3b5998; }
+
+.span-github {
+  color: #171515; }
+
+.span-google {
+  color: #db4437; }
+
+.span-twitter {
+  color: #55acee; }
+
+.pdf-dribble {
+  color: #ea3c89; }
+
+.pdf-facebook {
+  color: #3b5998; }
+
+.pdf-github {
+  color: #171515; }
+
+.pdf-google {
+  color: #db4437; }
+
+.pdf-twitter {
+  color: #55acee; }
+
+.test-map-values {
+  color: #ea3c89, #3b5998, #171515, #db4437, #55acee; }
+
+.test-rgba {
+  color: rgba(255, 51, 102, 0.5);
+  background: rgba(255, 165, 0, 0.5);
+  border-color: rgba(0, 128, 0, 0.5); }
+
+.test-mix {
+  color: purple;
+  color: #4000bf;
+  color: rgba(64, 0, 191, 0.75); }
+
+.mix {
+  background: #ee3366;
+  color: #fffffe;
+  border-color: #ee3366; }
+
+.test-lighten {
+  background: #db1926; }
+
+.test-darken {
+  background: #7f0f16; }
+
+.limit-lighten {
+  background: white; }
+
+.limit-darken {
+  background: black; }
+
+.test-saturate {
+  background: #c1000d; }
+
+.test-desaturate {
+  background: #903137; }
+
+.test-adjust-hug-deg {
+  background: #ad5714; }
+
+.test-adjust-hug-per {
+  background: #ad5714; }
+
+.test-grayscale {
+  background: #616161; }
+
+.gray-desaturate {
+  background: #616161; }
+
+.test-alpha {
+  top: 1;
+  left: 0.8;
+  right: 1;
+  bottom: 0.8; }
+
+.test-opacify {
+  color: rgba(22, 34, 235, 0.8);
+  color: #1622eb;
+  color: rgba(79, 53, 39, 0.75);
+  color: #4f3527;
+  color: red;
+  color: #89adde;
+  color: rgba(22, 34, 34, 0.65);
+  color: #172222; }
+
+.test-transparentize {
+  border-color: rgba(255, 0, 0, 0.5);
+  border-color: rgba(255, 221, 238, 0.1);
+  border-color: rgba(98, 233, 124, 0.19);
+  border-color: rgba(98, 233, 124, 0);
+  border-color: rgba(255, 0, 0, 0.1);
+  border-color: rgba(58, 62, 55, 0.4);
+  border-color: rgba(58, 62, 55, 0); }
+
+/*@extend*/
+.error, .seriousError {
+  border: 1px #f00;
+  background-color: #fdd; }
+
+.error.intrusion, .intrusion.seriousError {
+  background-image: url("/image/hacked.png"); }
+
+.seriousError {
+  border-width: 3px; }
+
+/*other selector*/
+.comment a.user:hover, .comment .user.hoverlink {
+  font-weight: bold; }
+
+/*more extend*/
+.one, .more-extend {
+  border: 1px #f00;
+  background-color: #fdd; }
+
+.attention, .more-extend {
+  font-size: 3em;
+  background-color: #ff0; }
+
+.more-extend {
+  border-width: 3px; }
+
+/*%placeholder @extend*/
+#conent a.notice {
+  color: blue;
+  font-weight: bold;
+  font-size: 2em; }
+
+/*@media*/
+.sidebar {
+  width: 300px; }
+  @media screen and (orientation: landspace) {
+    .sidebar {
+      width: 500px; } }
+
+/*@media nest @media*/
+@media screen and (orientation: landspace) {
+  .sidebar {
+    width: 500px; } }
+
+@media screen and (-webkit-min-device-pixel-ratio: 1.5) {
+  .sidebar {
+    width: 500px; } }
+/*@at-root*/
+.a {
+  color: red; }
+  .a .b {
+    color: orange; }
+    .a .b .c {
+      color: yellow; }
+      .d {
+        color: green; }
+
+/*@debug @warn*/
+.botton {
+  position: relative;
+  left: 20px;
+  top: 30px; }
+
+/*@error*/
+.test-error {
+  width: 10px; }
+
+/*# sourceMappingURL=dome.css.map */
